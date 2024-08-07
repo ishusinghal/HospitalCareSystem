@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ErrorHandlingPractice2.sol": "ErrorHandlingB"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ErrorHandlingPractice2.sol": {
+			"keccak256": "0x2bf0f03731a6986b1fa727eef4040bfd37a284f677d3e607cb5f7fa14deab052",
+			"urls": [
+				"bzz-raw://4b39617902ff862dd5cef3ecb5e6cbe5b05890d8ab2300a14364f539815b3477",
+				"dweb:/ipfs/QmfHqPyQ7rrf8Y3d3G939NGnUxN55uxRykEuuyKE1yaV5Z"
+			]
+		}
+	},
+	"version": 1
+}

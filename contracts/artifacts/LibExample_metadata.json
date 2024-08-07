@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y",
+						"type": "int256"
+					}
+				],
+				"name": "addN",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "substraction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libexample.sol": "LibExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mathlibrary.sol": {
+			"keccak256": "0xb38b7d2b3d92604437969429a820dff40b16b5d27348b93eef4d18a68faa359d",
+			"urls": [
+				"bzz-raw://43459b218ad7d692321fb0da52fa092bed60a15ee1a8dd4baec3fd64cff8a04e",
+				"dweb:/ipfs/QmNQ7zTnDFoP6CAgXpGHijAWrjfdafgJX4JarFvwtKhKis"
+			]
+		},
+		"contracts/libexample.sol": {
+			"keccak256": "0x429bffd4bff5985e3e4e2948d331b0d4dc46f0e430e2570f4bd055194cc4258f",
+			"urls": [
+				"bzz-raw://e96fa426c1d73c96f663500bb150ca2e43213fb037ed38a2bb037d8294989f38",
+				"dweb:/ipfs/QmUAGnAt66SkstjLjVQtKoKWC7bn2Un1TGJsm48WDMKnTW"
+			]
+		}
+	},
+	"version": 1
+}

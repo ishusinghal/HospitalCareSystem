@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_strin",
+						"type": "string"
+					}
+				],
+				"name": "getstr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_in1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_in2",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/abstractInterface.sol": "derivedContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/abstractInterface.sol": {
+			"keccak256": "0x4d3ca53fdaf8c06c76c4a2b8a04a69ec35e8f1f90cafbdd42186a88dd1db273b",
+			"urls": [
+				"bzz-raw://b20fdb8c94851b177d6a9677ff1365ec3a18018fa2e82750d3e182cb72e6a028",
+				"dweb:/ipfs/Qmdc3W5B2MF2C4UppwvDCzTYYTE2AkK2C356bQdkP5Z4H3"
+			]
+		}
+	},
+	"version": 1
+}

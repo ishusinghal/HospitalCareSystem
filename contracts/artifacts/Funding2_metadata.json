@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FundingPractice.sol": "Funding2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundingPractice.sol": {
+			"keccak256": "0x162fcf09a69e05935856af3b489748dc0ced12293ea3a808972fab47a84fa99a",
+			"urls": [
+				"bzz-raw://58567b87012b1d3d53e98d489e348a7c446f0dbec280fdd7a3ab678b8e20cb6e",
+				"dweb:/ipfs/QmNuYHD5kR5mx1xXanGGoCiiwFWyQGsubFpR2WYyMdP3jz"
+			]
+		}
+	},
+	"version": 1
+}

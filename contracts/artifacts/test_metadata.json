@@ -1,0 +1,227 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "SLParticipant",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Pname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Page",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "PphoneNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Pemail",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "courseEnrolled",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "feePaid",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_page",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pphoneNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "pemail",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_courseenrolled",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_feepaid",
+						"type": "bool"
+					}
+				],
+				"name": "addParticipant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "getparticipant",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "Pname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "Page",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "PphoneNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "Pemail",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "courseEnrolled",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "feePaid",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct test.Participant",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "getparticipant2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping2.sol": "test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping2.sol": {
+			"keccak256": "0x1411412482634bdbbb1875bb5239adc25bb41570f446cd0fba88820b995121f3",
+			"urls": [
+				"bzz-raw://cccffe23a0fd8bbd48b0b0578458bc66225abe4f04e8c3af82bdd7cb38525c25",
+				"dweb:/ipfs/QmS57DtWurx3fMAifn6QZ5nTp8QhA2jiDBAw4SjUggicaE"
+			]
+		}
+	},
+	"version": 1
+}
